@@ -1,0 +1,103 @@
+/*--------------------------------------------------------------
+# Serviços
+--------------------------------------------------------------*/
+
+#servCar:hover {
+    background-color: #d5d2ab; /* Define a cor de fundo ao passar o mouse */
+    filter: invert(100%);
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-direction: normal;
+  }
+  
+  #servRepar:hover {
+    background-color: #d5d2ab; /* Define a cor de fundo ao passar o mouse */
+    filter: invert(100%);
+    animation-name: slideRight;
+    animation-duration: 2s;
+    animation-direction: normal;
+  }
+  
+  #servSeg:hover {
+    background-color: #d5d2ab; /* Define a cor de fundo ao passar o mouse */
+    filter: invert(100%);
+    animation-name: shrink;
+    animation-duration: 2s;
+    animation-direction: normal;
+  }
+  
+  #servAbas:hover {
+    background-color: #d5d2ab; /* Define a cor de fundo ao passar o mouse */
+    filter: invert(100%);
+    animation-name: increase;
+    animation-duration: 2s;
+    animation-direction: normal;
+  }
+  
+  #servPneu:hover {
+    background-color: #d5d2ab; /* Define a cor de fundo ao passar o mouse */
+    filter: invert(100%);
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-direction: normal;
+  }
+  
+  #servOleo:hover {
+    background-color: #d5d2ab; /* Define a cor de fundo ao passar o mouse */
+    filter: invert(100%);
+    animation-name: colorChange;
+    animation-duration: 3s;
+    animation-direction: normal;
+  }
+  
+  
+  /* Animações */
+  @keyframes slideLeft {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-20%);
+    }
+  }
+  
+  @keyframes slideRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateY(-20%);
+    }
+  }
+  
+  @keyframes shrink {
+    50% {
+      transform: scale(0.5, 0.5);
+    }
+  }
+  
+  @keyframes increase {
+    0% {
+      transform: scale(1); /* Tamanho inicial */
+    }
+    100% {
+      transform: scale(1.10); /* Tamanho final */
+    }
+  }
+  
+  @keyframes fade {
+    0%    { opacity: 0; }
+    20%   { opacity: 1; }
+    80%   { opacity: 0; }
+    100%  { opacity: 1; }
+  }
+  
+  @keyframes colorChange {
+    0% {background-color: #FBFBFB}
+    20% {background-color: #3B71CA;}
+    40% {background-color: #14A44D; }
+    60% {background-color: #DC4C64; }
+    80% {background-color: #E4A11B; }
+    100% {background-color: Dark (#332D2D);}
+  }
+  

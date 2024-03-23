@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" type="images/jpg" href="images/favicon.png"/>
+    <title>Volutpat</title>
+</head>
+
+<body>
+    <!-- header-->
+    <header class="header"> 
+
+        <figure>
+        <img src="images/gear-icon.png" alt="Foto do produto" width="50" height="50">
+        <figcaption>Volutpat</figcaption>
+        </figure>
+ 
+        <ul>
+            <li> <a href="index.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="serviços.html">Serviços</a></li>
+            <li><a href="contatenos.html">Contate-nos</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+        </ul>
+
+    </header>
+    <!--end header-->
+
+    <!-- header-->
+    <section class="secao1">
+        
+        <div> 
+
+            <h1>
+                Concerto de Peças
+            </h1>
+            
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis est nec ex mollis rhoncus. 
+                Sed nec interdum velit. Cras id luctus tortor. Proin vulputate, nunc eget ullamcorper posuere, 
+                odio neque maximus magna, id posuere lacus arcu a augue. Phasellus porta, augue in finibus
+                pellentesque, quam orci hendrerit ligula, vitae fermentum ante mauris vitae mi. Fusce dui 
+                massa, fermentum et vulputate nec, lacinia non libero. Sed convallis augue et nulla blandit, 
+                ut vulputate nunc feugiat. Aenean sit amet dui mauris. Aliquam at pulvinar nibh. Ut suscipit 
+                rutrum velit id viverra.
+            </p>
+
+        </div>
+
+        <img src="images/repair.jpg" alt="Foto do produto">
+
+    </section>
+    <!--End header-->
+
+    <h2>Aparelhos que consertamos</h2><br>
+
+    <section class="secao1_grid">
+        
+        <div class="grid_item">
+            <img src="images/s1.png" alt="celular">
+            <p>Celular</p>
+        </div>
+        
+        <div class="grid_item">
+            <img src="images/s2.png" alt="pc"> 
+            <p>PC</p>
+        </div>
+         
+        <div class="grid_item">    
+            <img src="images/s3.png" alt="tv">
+            <p>TV</p> 
+        </div>
+        
+    </section>
+    <section class="secao2">
+
+        <div>
+            <h2>Quem somos</h2>
+            
+            <p>
+                Quisque non tempor mi, sit amet tincidunt ligula. Integer felis lacus, laoreet in rutrum non, mollis non elit. 
+                Integer ullamcorper ornare mi eu ultricies. Duis laoreet mi dui, et euismod urna tristique sed. Donec tincidunt,
+                 sapien id finibus mattis, augue elit porttitor quam, vehicula fermentum dolor dolor id risus. Nunc molestie ex sed 
+                 augue vestibulum, vel congue tortor vulputate. Maecenas ligula nisl, eleifend sit amet sagittis vestibulum, fringilla
+                  vehicula massa. Morbi tellus dolor, condimentum sit amet tortor vitae, cursus dignissim nunc.
+            </p>
+        </div>
+
+        <img src="images/about_us.png" alt="imagem quem somos">
+
+    </section>
+  
+    <h2>Nossos Serviços</h2><br><br>
+
+    <section class ="secao3">
+        
+        <div>
+            <img src="images/reparo.png" alt="celular">
+            <h3>Reparo</h3>
+            <p> Integer congue, elit non mattis auctor, sapien erat tristique massa, sed ullamcorper mi mauris sit amet purus. 
+                Donec accumsan lacus id nulla aliquam aliquet.</p>
+        </div>
+        
+        <div>
+            <img src="images/manutencao.png" alt="pc"> 
+            <h3>Manutenção</h3>
+            <p>Praesent velit felis, aliquam eget vulputate et, placerat vitae sapien. Nunc posuere cursus nunc sollicitudin fringilla. 
+            Integer id congue dolor. In scelerisque porta sem, sit amet consectetur ex fermentum et</p>
+        </div>
+         
+        <div>    
+            <img src="images/soldagem.png" alt="tv">
+            <h3>Soldagem</h3>
+            <p>Nunc posuere cursus nunc sollicitudin fringilla. Integer id congue dolor. 
+                In scelerisque porta sem, sit amet consectetur ex fermentum et. In hac habitasse platea dictumst. 
+                Sed ullamcorper nulla sed vehicula vulputate</p>
+        </div>
+
+    </section>
+
+    <h2>Contate-nos</h2>
+
+    <section class ="secao4">
+
+        <form>
+            <label for="iname">Nome:</label><br>
+            <input type="text" id="iname" name="iname"><br><br>
+            
+            <label for="iendere">Endereço:</label><br>
+            <input type="text" id="iendere" name="iendere"><br><br>
+            
+            <label for="iemail">Email:</label><br>
+            <input type="text" id="iemail" name="iemail"><br><br>
+
+            <input type="button" value="Enviar" onclick="mostrar ()"><br>
+
+            <p class="secao4_saida"> Espaco em braco</p>
+
+            <p>Selecione o Estado de nossa Filial</p>
+            <input type = "radio" name ="radest" id = "goias" checked onclick="verificar ()"> 
+            <label for = "goias">Goiás</label>
+            <input type = "radio" name ="radest" id = "minas" onclick="verificar ()">
+            <label for = "minas">Minas Gerais</label>
+            <input type = "radio" name ="radest" id = toca onclick="verificar ()">
+            <label for = toca>Tocantins</label>
+        </form>
+
+        <img class="secao4_img"  src="images/goias.png" alt="endereco"> 
+
+    </section>
+
+    <footer class="footer">
+        <p>
+            <strong>Atendimento</strong> <br>
+            Política <br>
+            Termos <br>
+            Fale Conosco <br>
+        </p>
+
+        <p>
+            <strong>Pagamento</strong><br>
+            Meios de Pagamento<br>
+            Compre com Pontos<br>
+            Cartão de Crédito<br>
+        </p>
+
+        <figure>
+            <p>Formas de Pagamento</p>
+            <img src="images/pagamento.png" alt="formas de pagamento">
+        </figure>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

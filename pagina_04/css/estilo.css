@@ -1,0 +1,92 @@
+a ,ul{
+  text-decoration: none;
+  color: inherit;
+  list-style-type: none;
+}
+
+.header li{
+  /* Para exibir os itens li horizontalmente e adcionado espaçamento  */ 
+  display: inline-block;
+  margin-right: 20px; 
+}
+
+/*--------------------------------------------------------------
+# Carrossel
+--------------------------------------------------------------*/
+
+.carousel-control-prev,
+  .carousel-control-next {
+  width: 120px; /* Largura do botão */
+  height: 50px; /* Altura do botão */
+  position: absolute;
+  top: 50%;
+  border-radius: 10px; /* Raio da borda para criar um botão circular */
+  background-color:#0275d8; /* Cor de fundo do botão */
+  font-size: 20px; /* Tamanho da fonte do ícone */
+}
+
+/*--------------------------------------------------------------
+# Main Icones
+--------------------------------------------------------------*/
+
+.unico_icone {
+   /*Modelando A Caixa com sombra*/
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  position: relative;
+  top: -80px;
+}
+
+.unico_icone img {
+  padding-left: 60px;
+}
+
+.unico_icone:hover {
+    background-color: #b1b005; /* Define a cor de fundo ao passar o mouse */
+    filter: invert(100%);
+}
+
+/*--------------------------------------------------------------
+# Consulta
+--------------------------------------------------------------*/
+
+#nome,#email,#telef,#depar,#douto,#data {
+  /*alterando as dimenções da caixas*/
+  width: 270px;
+  height: auto;
+  margin: 2px;
+  
+  border: 1px solid #ccc;
+  border-radius: 3px;;
+}
+
+#mensa{
+  width: 557px;
+  height: 300px;
+  margin-top: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 3px;;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer_linha1 {
+  background-color: #176abc;
+  color: white;
+  font:Helvetica Neue;
+  font-size: irem;
+}
+
+#footer_linha2 {
+  background-color: #1a76d1;
+  color: white;
+  font:Helvetica Neue;
+  font-size: irem;
+}

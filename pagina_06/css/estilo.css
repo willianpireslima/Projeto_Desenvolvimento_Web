@@ -1,0 +1,264 @@
+html,body{
+  scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	color:#818998;
+  text-transform:initial;
+  
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#navbarNav{
+  margin-left: 820px;
+}
+
+/*Mudar a cor do nav ao fazer o scroll - associado ao js*/
+.navbar.scrolled {
+  background-color: #2a2d54 !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar.scrolled .nav-link ,.navbar-brand {
+  color: white;
+}
+
+.nav-scroll {
+	background: #fff;
+	-webkit-box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
+	box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+/*--------------------------------------------------------------
+# Inicio
+--------------------------------------------------------------*/
+
+.inicio_txt{
+  color: white;
+  text-align: center;
+  margin-right: 190px;
+  /*Posicionado o Texto em relacao ao Conteiner*/
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.inicioBusca {
+  /*Redimensionando o elemento*/
+  margin-left: 20px;
+  margin-right: 120px;
+
+  padding: 15px;
+  
+  /*Modelando A Caixa com sombra*/
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /*Posicionado o Texto em relacao ao Conteiner*/
+  position: absolute;
+  top: 85%;
+  left: 10%;
+}
+
+/*aplicando sob a imagem um gradiente linear que causa o efeito de escurecimento*/
+.inicio::before {
+  content: "";
+  position: absolute;
+  top: 9%;
+  left: 0;
+  width: 100%;
+  height: 91%;
+  background: linear-gradient(to right, rgba(37, 37, 37, 0.9), rgba(37, 37, 37, 0.7));
+}
+
+/*Alterando o Tamanho dos Botoes dentro de inicio*/
+.inicioBusca .btn-secondary{
+  width: 120px;
+  height: auto;
+}
+
+.inicioBusca .btn-primary{
+  width: 140px;
+  height: auto;
+  background-color: #2a2d54;
+  border-color: 2px #2a2d54 solid;
+
+}
+
+/*--------------------------------------------------------------
+# Serviços
+--------------------------------------------------------------*/
+
+.servicos {
+  padding-top: 170px;
+  color: black;
+}
+
+.servicos .col {
+  padding: 15px;
+
+  /*Modelando A Caixa com sombra*/
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.servicos img {
+  padding-left: 40px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Novos Carros
+--------------------------------------------------------------*/
+
+.novcar {
+  font-size: 5rem;
+  color: #444a57;
+  text-align: center;
+}
+
+
+.novcar .carousel-item {
+  width: 90%;
+  height: auto;
+  padding-left: 120px;
+}
+
+
+.novcar .carousel-indicators {
+  background-color: #2a2d54;
+}
+
+/*Alterando os botoes do carrossel*/
+.novcar .carousel-control-prev, .carousel-control-next {
+  width: 80px;
+  height: 80px;
+  background-color: #2a2d54;
+}
+
+.novcar .carousel-control-prev{
+ /*Posicionado o Texto em relacao ao Conteiner*/
+ position: absolute;
+ top: 40%;
+ margin-left: 70px;
+
+}
+
+.novcar .carousel-control-next{
+  /*Posicionado o Texto em relacao ao Conteiner*/
+  position: absolute;
+  top: 40%;
+  margin-right: 70px;
+}
+
+.novcar h3,h5{
+  margin-top: 60px;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Novos Carros
+--------------------------------------------------------------*/
+
+.carros .container {
+  margin-left: 190px;
+}
+
+.carros img{
+  width: 90%;
+}
+
+.carros h2{
+  margin-right: 190px;
+}
+
+
+.carros p{
+  
+  border-top: 1px solid #ccc;;
+}
+
+.carros .col-md-12{
+  margin: 15px;
+
+   /*Modelando A Caixa com sombra*/
+   border: 1px solid #ccc;
+   border-radius: 1px;
+   background-color: #f8f8f8;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carros h2{
+  font-size: 3rem;
+  color: #444a57;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Clientes
+--------------------------------------------------------------*/
+.clientes .container{
+  margin-left: 160px;
+}
+
+.clientes .col-sm-3 {
+padding: 15px;
+/*Modelando A Caixa com sombra*/
+border: 1px solid #ccc;
+border-radius: 1px;
+background-color: #f8f8f8;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.clientes img {
+  padding-bottom: 15px;
+  /*Modelando A Caixa com sombra*/
+  margin-left: 60px;
+  }
+  
+.clientes h2 {
+
+  margin-left: 260px;
+}
+
+/*--------------------------------------------------------------
+# Marcas
+--------------------------------------------------------------*/
+
+.marca img {
+  width: 80%;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer {
+  height: 560px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #2a2d54;
+  color: white;
+}
+
+.footer .parag {
+  border-top: 2px white solid;
+  margin-top: 200px;
+}
+
+.footer ul{
+  list-style-type: none;
+}

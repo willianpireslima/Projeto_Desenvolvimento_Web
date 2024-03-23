@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>TransporteRam</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container p-3" >
+            <div class="row align-items-center">
+                <div class="col-3 ">  
+                  <p id="headerText">TransporteRam</p> 
+                </div>
+              
+                <div class="col-9 ">
+                    <ul>
+                      <li><button type="button" class="btn btn-primary">Inicio</button></li>
+                      <li><button type="button" class="btn btn-primary" 
+                        id="scrollRastreio">Rastreamento</button></li>
+                      <li><button type="button" class="btn btn-primary" 
+                        id="scrollServicos">Serviços</button></li>
+                      <li><button type="button" class="btn btn-primary" 
+                        id="scrollSobreNos">Quem Somos</button></li>
+                        <li><button type="button" class="btn btn-primary" 
+                            id="scrollcontateNos">Contate-nos</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="inicio">
+        <div class="container-fluid" id="inicio_container">
+            <div class="row">
+                <div class="col-12">
+                    <img src="images/banner.png">
+                </div>
+            </div>
+
+            <div id="inicio_texto">
+                <h2>NÓS OFERECEMOS O MELHOR SERVIÇO DE TRANSPORTE</h2> 
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum magnam, 
+                    voluptates distinto, officia arquiteto tenetur debitis hic aspernatur 
+                    libero comodi atque fugit adipisci, blanditiis quidem dolorum odit voluptas? 
+                    Voluptar, noite?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="rastreio" id="rastreio">
+        <div class="container p-5">
+            <br><h3>Rastreio de Encomendas</h3><br>
+            <div class="row">
+              <div class="col-2">
+                
+                <p>Mostrar Mapa</p>
+                <button type="button" class="btn btn-primary mt-2" id="show">Mostrar Imagem</button>
+                <button type="button" class="btn btn-danger mt-2" id="hide">Ocultar Imagem</button>
+                
+                <br><br><p>Mostrar Paises</p>
+                <button id="bntFadeIn">Mostrar fadeIn </button><br><br>
+                <button id="bntFadeOut">Mostrar fadeOut</button>
+              </div>
+              
+              <div class="col-7" id="rastreio_coluna2"  style="height: 400px;">
+                <img src="images/mapa.jpg" alt="" id="rastreio_mapa">
+              </div>
+
+              <div class="col-2">
+               
+                <div id="rastreioBand1" style="display:none;">
+                    <img src="images/bandeira1.png" alt="">
+                </div><br>
+                <div id="rastreioBand2" style="display:none;">
+                    <img src="images/bandeira2.png" alt="">
+                </div><br>
+                <div id="rastreioBand3" style="display:none;">
+                    <img src="images/bandeira3.png" alt="">
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <button id="distasi">Mostrar Distancia</button>
+                </div>
+
+                <div class="col-8">
+                    <h3 style="display:none;" id="paragraf">Doze milhões e oitocentos mil metros</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <img src="images/entrega.png"id="rastreioEntr" >
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <br><br><br><br><br>
+                    <div id="flip">Click no slide up painel para mais informações</div>
+                    <div id="panel">sua encomenda esta a caminho</div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="servicos">
+        <div class="container ps-5">
+        
+        <h2>Nossos serviços</h2>
+        <p>
+            Existem muitas variações de passagens de Lorem 
+            Ipsum disponíveis, mas a maioria sofreu alterações
+        </p><br>
+            
+            <div class="row">
+              <div class="servicosCol col-2">
+                <img src="images/s1.png" alt="" width="80%" height="auto">
+              </div>
+
+              <div class="servicosCol col-3">
+                <h5>TRANSPORTE AÉREO</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+
+              <div class="col-1">
+              </div>
+
+              <div class="servicosCol col-2">
+                <img src="images/s2.png" alt=""  width="80%" height="auto">
+              </div>
+
+              <div class="servicosCol col-3">
+                <h5>TRANSPORTE DE CARGA</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+
+            <br><br>
+
+            <div class="row">
+                <div class="servicosCol col-2">
+                    <img src="images/s3.png" alt=""  width="70%" height="auto">
+                  </div>
+    
+                  <div class="servicosCol col-3">
+                    <h5>TRANSPORTE EM CAMINHÕES</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+
+                <div class="col-1">
+                </div>
+    
+                  <div class="servicosCol col-2">
+                    <img src="images/s4.png" alt=""  width="60%" height="auto">
+                  </div>
+    
+                  <div class="servicosCol col-3">
+                    <h5>TRANSPORTE DE TREM</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+            </div>     
+        </div>
+    </section>
+
+    <section class="sobreNos">
+        <div class="container pt-5">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <div class="card" style="width: 22rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Sobre nós</h5>
+                          <p class="card-text">
+                            Fuga maiores aspernatur ab, est autem ut non, 
+                            incidunt corporis quidem qui mollitia cumque 
+                            explicabo, repellat magnam nemo blanditiis velit? Amet, reprehenderit!
+                          </p>
+                          <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-8">
+                    <img src="images/sobre.jpg"  width="89%" height="auto" >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contateNos">
+        <div class="container">
+            <br><h3>CONTATE-NOS</h3><br>
+            <div class="row">
+              <div class="col-sm">
+                <form>
+                    <!-- Gupo de Inputs -->
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Endereço de email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                      <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Senha</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+                    </div>
+
+                    <br>
+                    <!-- Botão para acionar modal -->
+                    
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Salvar Informações</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Modal de Salvamento de Dados
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Salvar Dados</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+  
+                  </form>
+              </div>
+
+              <div class="col-sm">
+                <img src="images/mapa_exe.png">
+              </div>
+        
+            </div>
+          </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-sm">
+            <h4>Endereço</h4>
+            <ul>
+              <li>&#128205;Localização</li>
+              <li>&#9743;Tell 5555-5555</li>
+              <li>&#x2709;Transportes@gmail.com</li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h4>Info</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, 
+              explicabo sint! Voluptate mollitia commodi, impedit esse labore .
+            </p>
+          </div>
+          <div class="col-sm">
+            <h4>Se inscreva</h4>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+              </div>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Email" aria-describedby="basic-addon1">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+ 
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
+</body>
+</html>

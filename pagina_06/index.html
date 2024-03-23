@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+    
+    <!--Base do Visual-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/animado.css">
+    
+    <!--Animated Scroll-->
+    <link rel="stylesheet" href="css/animate.css">
+  
+    <title>Carmo v2</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-fluid">
+        <nav class="nav navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
+            
+          <a class="navbar-brand ms-4" href="#">Carmo V2</a>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#carros">Carros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#marca">Marcas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contate-nos</a>
+              </li>
+            </ul>
+          </div> 
+        </nav>
+    </div>
+  </header>
+
+  <section class="inicio" id="inicio">
+    <div class="container-fluid">
+      <img src="images/banner.png" alt="">
+
+      <div class="inicio_txt  wp-animated" data-animation="fadeInDown">
+       
+        <h1>Adquira seu carro online e com segurança</h1>
+        
+        <p>
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Fusce faucibus sem et commodo malesuada. Maecenas tincidunt ut odio sed vestibulum. 
+            Pellentesque vitae nunc in eros tristique tristique eu quis erat. In rhoncus vestibulum tortor
+        </p>
+    </div>
+
+    <div class="inicioBusca wp-animated" data-animation="fadeInLeft">
+      <div class="container ">
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="row">
+              <p>Selecione o ano</p>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ano
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">2022</a></li>
+                  <li><a class="dropdown-item" href="#">2023</a></li>
+                  <li><a class="dropdown-item" href="#">2024</a></li>
+                </ul>
+              </div>
+            </div>
+              
+            <div class="row mt-4">
+              <p>Estilos de Carroceria</p>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Carroceria
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sedan</a></li>
+                  <li><a class="dropdown-item" href="#">SUV</a></li>
+                  <li><a class="dropdown-item" href="#">Conversível</a></li>
+                </ul>
+              </div>
+            </div>      
+          </div>
+          
+          <div class="col">
+            <div class="row">
+              <p>Selecione o Fabricante</p>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Fabricante
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Honda</a></li>
+                  <li><a class="dropdown-item" href="#">Yamaha</a></li>
+                  <li><a class="dropdown-item" href="#">Toyota</a></li>
+                </ul>
+              </div>
+            </div>
+              
+            <div class="row mt-4">
+              <p>Condição carro</p>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Carroceria
+                  </button>
+                  <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Novo</a></li>
+                  <li><a class="dropdown-item" href="#">Semi-novo</a></li>
+                  <li><a class="dropdown-item" href="#">Usado</a></li>
+                </ul>
+              </div> 
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="row">
+              <p>Selecione o Modelo</p>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Modelo
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Corolla</a></li>
+                  <li><a class="dropdown-item" href="#">Civic</a></li>
+                  <li><a class="dropdown-item" href="#">Mustang</a></li>
+                </ul>
+              </div>
+            </div>
+              
+            <div class="row mt-4">
+              <p>Selecione o preço</p>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Carroceria
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">10.000</a></li>
+                  <li><a class="dropdown-item" href="#">25.000</a></li>
+                  <li><a class="dropdown-item" href="#">50.000</a></li>
+                </ul>
+              </div>
+            </div>    
+          </div>
+          
+          <div class="col">
+              <button type="button" class="btn btn-primary btn-lg">Buscar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="servicos" id="servicos">
+    <div class="container">
+      <h3>Serviços</h3><br>
+      <div class="row wp-animated-group">
+        <div class="col square wp-animated" data-animation="fadeInLeft" data-animation-delay="0.5s"  id="servCar">
+          <img src="images/icone_carro.png" alt="">
+            
+            <h4>Maior liderança em carros</h4>
+            
+            <p>
+                Donec lobortis justo at sapien tincidunt, vitae congue dui consequat. 
+                Sed sit amet urna id magna porta dignissim quis vitae metus. Fusce laoreet et lacus quis blandit.
+            </p>
+        </div>
+        
+        <div class="col ms-3 wp-animated" data-animation="fadeInUp" data-animation-delay="1.3s" id="servRepar">
+          <div>
+            <img src="images/icone_reparo.png" alt="">
+            <h4>Sem Limite de Reparos</h4>
+            <p>
+                Nunc nec faucibus mi. Fusce ornare id felis at iaculis. Etiam iaculis purus et tempor tempor. 
+                Suspendisse sit amet est sit amet leo ultricies consectetur id vitae eros
+            </p>
+        </div>
+
+        </div>
+        <div class="col ms-3 square wp-animated" data-animation="fadeInRight" data-animation-delay="1s" id="servSeg">
+          <div>
+            <img src="images/icone_seguro.png" alt="" >
+            <h4>Suporte ao Seguro</h4>
+            <p>
+                Etiam rutrum eu tellus ac faucibus. In mauris risus, tempor ut nisl vel, egestas faucibus nisi. 
+                Aenean fermentum viverra nunc at mattis. Curabitur id purus eu felis placerat posuere a vitae dolor. 
+            </p>
+        </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col square wp-animated" data-animation="fadeInLeft" data-animation-delay="0.5s" id="servAbas">
+          <img src="images/icone_abastecimento.png" alt="">
+            
+            <h4>Abastecimento</h4>
+            
+            <p>
+                Donec lobortis justo at sapien tincidunt, vitae congue dui consequat. 
+                Sed sit amet urna id magna porta dignissim quis vitae metus. Fusce laoreet et lacus quis blandit.
+            </p>
+        </div>
+        
+        <div class="col ms-3 wp-animated" data-animation="fadeInDown" data-animation-delay="1s" id="servPneu">
+          <div>
+            <img src="images/icone_trocapneu.png" alt="">
+            <h4>Troca de Pneus</h4>
+            <p>
+                Nunc nec faucibus mi. Fusce ornare id felis at iaculis. Etiam iaculis purus et tempor tempor. 
+                Suspendisse sit amet est sit amet leo ultricies consectetur id vitae eros
+            </p>
+        </div>
+
+        </div>
+        <div class="col ms-3 square wp-animated" data-animation="fadeInRight" data-animation-delay="1s" id="servOleo">
+          <div>
+            <img src="images/icone_trocaoleo.png" alt="">
+            <h4>Troca de Oleo</h4>
+            <p>
+                Etiam rutrum eu tellus ac faucibus. In mauris risus, tempor ut nisl vel, egestas faucibus nisi. 
+                Aenean fermentum viverra nunc at mattis. Curabitur id purus eu felis placerat posuere a vitae dolor. 
+            </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="novcar wp-animated" data-animation="fadeInDown">
+    <h3> Confira os carros mais recentes</h3>
+    <h2>Carros mais novos</h2>
+    <div id="carouselExampleIndicators" class="carousel slide pt-2">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/slide1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide4.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="carros" id="carros">
+    <div class="container">
+      <h2>Carros</h2>
+      <div class="row wp-animated-group">
+        
+        <div class="col-3 wp-animated" data-animation="fadeInLeft" data-animation-delay="0.5s">
+          <div  class="row">
+            <div class="col-md-12 square">
+              <img src="images/carro1.png" alt="">
+              <p>3000 GT</p>
+            </div>
+          </div>
+
+          <div  class="row">
+            <div class="col-md-12">
+              <img src="images/carro2.png " alt="">
+            . <p>COUPÉ</p>
+            </div>
+          </div>
+
+          <div  class="row">
+            <div class="col-md-12">
+              <img src="images/carro3.png" alt="">
+              <p>1200</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-3 ms-3  wp-animated" data-animation="fadeInUp" data-animation-delay="1s">
+          <div  class="row">
+            <div class="col-md-12">
+              <img src="images/carro4.png " alt="">
+              <p>MG SPAIC</p>
+            </div>
+          </div>
+
+          <div  class="row">
+            <div class="col-md-12">
+              <img src="images/carro5.png" alt="">
+              <p>ACCORD</p>
+            </div>
+          </div>
+
+          <div  class="row">
+            <div class="col-md-12">
+              <img src="images/carro6.png" alt="">
+            <p>PRELUDE</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 ms-3 wp-animated" data-animation="fadeInRight" data-animation-delay="0.5s">
+         
+          <div  class="row">
+            <div class="col-md-12 square wp-animated">
+              <img src="images/carro7.png" alt="">
+              <p>S2000</p>
+            </div>
+          </div>
+  
+          <div  class="row">
+            <div class="col-md-12 square ">
+              <img src="images/carro8.png" alt="">
+              <p>HILUX</p>
+            </div>
+          </div>
+  
+          <div  class="row">
+              <div class="col-md-12">
+                <img src="images/carro9.png" alt="">
+                <p>ECLIPSE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="clientes">
+    <div class="container">
+      <br><h2>O que nossos clientes dizem</h2><br>
+      <div class="row wp-animated-group">
+        <div class="col-sm-3 square wp-animated" data-animation="fadeInLeft" data-animation-delay="0.5s">
+          <img src="images/cliente1.png" alt="">
+          <p>
+              Suspendisse vel mattis lacus. Vestibulum consequat purus nec tellus aliquet ornare<br><br>
+              <strong>Martins Oliveira</strong><br><br>
+              Austria<br>
+          </p>
+        </div>
+        
+        <div class="col-sm-3 ms-5 square wp-animated" data-animation="fadeInLeft" data-animation-delay="1s">
+          <img src="images/cliente2.png" alt="">
+          <p>
+              Suspendisse vel mattis lacus. Vestibulum consequat purus nec tellus aliquet ornare<br><br>
+              <strong>Isabela de Faria</strong><br><br>
+              Zambia<br>
+          </p>
+        </div>
+        
+        <div class="col-sm-3 ms-5 square wp-animated" data-animation="fadeInLeft" data-animation-delay="1.3s">
+          <img src="images/cliente3.png" alt="">
+            <p>
+                Suspendisse vel mattis lacus. Vestibulum consequat purus nec tellus aliquet ornare<br><br>
+                <strong>Eustaquio nova era</strong><br><br>
+                India<br>
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="marca" id="marca">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm">
+          <img src="images/marcas1.png" alt="">
+        </div>
+        <div class="col-sm">
+          <img src="images/marcas2.png" alt="">
+        </div>
+        <div class="col-sm">
+          <img src="images/marcas3.png" alt="">
+        </div>
+        <div class="col-sm">
+          <img src="images/marcas4.png" alt="">
+        </div>
+        <div class="col-sm">
+          <img src="images/marcas5.png" alt="">
+        </div>
+        <div class="col-sm">
+          <img src="images/marcas6.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm">
+          <p>
+            <strong>Carmo V2</strong><br><br>
+            Phasellus id ligula nec ante sollicitudin vestibulum vel vel ex.<br> 
+            Vivamus ante lorem, varius at mattis ac, aliquet quis enim.<br>
+            Ut ac leo sit amet neque elementum lacinia<br>
+        </p>
+        </div>
+        
+        <div class="col-sm">
+          <ul>
+            <li><strong>SOBRE Carmo V2</strong></li><br>
+            <li>Sobre nós</li><br>
+            <li>Carreira</li><br>
+            <li>Termos de serviço</li><br>
+            <li>Política de Privacidade</li><br>
+        </ul>
+        </div>
+        
+        <div class="col-sm">
+          <ul>
+            <li><strong>Top Marcas</strong></li><br>
+            <li>Ferrari</li><br>
+            <li>Audi</li><br>
+            <li>Camaro</li><br>
+            <li>Hyundai</li><br>
+        </ul>
+        </div>
+
+        <div class="col-sm">
+          <p>
+            <strong>NEWS LETTER</strong><br><br>
+            Inscreva-se para receber as últimas notícias e informações
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">@</span>
+              <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+        </p>
+        </div>
+      </div>
+      <div class="row parag">
+        <p>© Copyright.Projetado e desenvolvido por Carmo.</p>
+      </div>  
+    </div>
+  </footer>
+
+   <!--Carousel-->
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!--Dropdowns-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+ 
+   <!--Animated Scroll-->
+   <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/easy-waypoint-animate.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script> 
+  <script src="js/script.js"></script>
+
+</body>
+</html>

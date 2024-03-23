@@ -1,0 +1,239 @@
+img {
+    max-width: 100%;
+    height: auto;
+  display: block;
+}
+.header{
+    width: 100%; /* Define a largura como 100% */
+    height: 70px;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: gray;
+}
+
+.header li{  
+    /* Para exibir os itens li horizontalmente e adcionado espaçamento  */ 
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.secao1_txt {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+    margin-left: 25px;
+    margin-right: 25px;
+
+    grid: flex;
+    align-items: center;
+    
+    /* Movendo em  relacao a si mesmo e movendo dentro da imagem*/
+    position: relative;
+    top: -700px;
+}
+
+.secao1_txt form {
+    color: black;
+
+    /*Movendo A Caixa*/
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+    /*Modelando A Caixa com sombra*/
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#nome, #loc {
+     /*Modelando A Caixa com sombra*/
+    padding: 10px;
+    padding-right: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+   /* Movendo em  relacao a si mesmo e movendo dentro da imagem*/
+   position: relative;
+    top: -2px;
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#busca{  
+    margin-left: 25px;
+    border: 0;
+    border-radius: 5px;
+    
+    color: white;
+    font-size: 15px;
+    background-color: #ff545a;
+    /* Movendo em  relacao a si mesmo e movendo dentro da imagem*/
+    position: relative;
+    top: -2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.secao1_icones {
+     /*Modelando o layout*/ 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    /* Movendo em  relacao a si mesmo e movendo dentro da imagem*/
+    position: relative;
+    top: -450px;
+}
+
+.secao1_icones div{
+    background-color: white;
+    padding: 15px;
+    /*Criando a caixa com sommbreamento*/
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.secao1_icones div:hover  {
+    background-color: #00aba5; /* Define a cor de fundo ao passar o mouse */
+    filter: invert(100%);
+}
+
+.secao1_icones p{
+    margin-left: 40px;
+    /*Criando a caixa com sommbreamento*/
+  
+}
+
+.secao2{
+    margin-left: 30px;
+    margin-right: 30px;
+
+    /* Movendo em  relacao a si mesmo e movendo dentro da imagem*/
+    position: relative;
+    top: -400px;
+}
+
+.secao2_icones {
+    display: flex;
+    gap: 20px; /* Adiciona espaçamento entre os itens */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center; /* Centraliza o texto */
+}
+
+.secao2_icones div:hover  {
+    background-color: #00aba5; /* Define a cor de fundo ao passar o mouse */
+    filter: invert(100%);
+}
+
+.secao2_icones div {
+    padding: 10px;
+     /*Criando a caixa com sommbreamento*/
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.secao2_icones img{
+    margin-left: 90px;
+}
+
+.slider{
+    position: relative;
+    top: -350px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider h2,p{
+ margin-left: 30px;
+}
+
+
+.slider img{
+    width: 70%;
+    height: auto;
+    display: none;
+    align-items: center;
+    margin-left: 200px;
+  
+}
+
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+}
+
+.secao3 {
+    margin-left: 30px;
+    padding: 0;
+    /* Movendo em  relacao a si mesmo e movendo dentro da imagem*/
+     position: relative;
+    top: -300px;
+
+}
+
+.secao3_txt {
+    /*Organizando Itens*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    
+    color:white;
+    text-align: center;
+
+    /* Movendo em  relacao a si mesmo e movendo dentro da imagem*/
+    position: relative;
+    top: -180px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    border-top: 1px solid gray; 
+}

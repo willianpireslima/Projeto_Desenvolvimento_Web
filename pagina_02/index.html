@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+    <title>Carmo</title>
+</head>
+
+<body>
+
+    <header class="header"> 
+        <p>Carmo</p>
+
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="serviço.html">Serviço</a></li>
+            <li><a href="carros.html">Carros</a></li>
+            <li><a href="marcas.html">Marcas</a></li>
+            <li><a href="contatenos.html">Contate-nos</a></li>
+        </ol>
+
+    </header>
+
+    <section class="secao1">
+        <img src="images/banner.png" alt="" >
+
+        <div>
+            <h1>Adquira seu carro online e com segurança</h1>
+            
+            <p>
+                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                Fusce faucibus sem et commodo malesuada. Maecenas tincidunt ut odio sed vestibulum. 
+                Pellentesque vitae nunc in eros tristique tristique eu quis erat. In rhoncus vestibulum tortor
+            </p>
+        </div>
+    </section>
+
+    <section class="secao2">  
+        <form > 
+            <label for="cars">Esolha um Modelo de Carro:</label>
+            <select name="carros" id="carros">
+                <option value="suv">SUV</option>
+                <option value="cros">Crossover</option>
+                <option value="sedan">Sedan</option>
+                <option value="hatch">Hatchback</option>
+                <option value="picap">Picape</option>
+                <option value="esport">Esportivo</option>
+            </select>
+        </form>
+
+        <form>
+            <label for="dtacomp">Data de Compra:</label>
+            <input type="date" id="dtacomp" name="dtacomp">
+        </form>
+
+        <form>
+            <label for="favcor">Selecione a Cor desejada:</label>
+            <input type="color" id="favcor" name="favcolor" value="#ff0000">
+        </form>
+
+        <form>
+            <label for="quant">Selecione a Numeracao:</label>
+            <input type="number" id="quant" name="quant" min="1" max="5">
+        </form>
+
+        <form class="mover">
+            <input type="submit" value="Buscar" id="submit">
+        </form>
+    </section>
+
+    <section class="secao3">
+        <div>
+            <img src="images/icone_carro.png" alt="">
+            
+            <h4>Maior liderança em carros</h4>
+            
+            <p>
+                Donec lobortis justo at sapien tincidunt, vitae congue dui consequat. 
+                Sed sit amet urna id magna porta dignissim quis vitae metus. Fusce laoreet et lacus quis blandit.
+            </p>
+        </div>
+        
+        <div>
+            <img src="images/icone_reparo.png" alt="">
+            <h4>Sem Limite de Reparos</h4>
+            <p>
+                Nunc nec faucibus mi. Fusce ornare id felis at iaculis. Etiam iaculis purus et tempor tempor. 
+                Suspendisse sit amet est sit amet leo ultricies consectetur id vitae eros
+            </p>
+        </div>
+        
+        <div>
+            <img src="images/icone_seguro.png" alt="">
+            <h4>Suporte ao Seguro</h4>
+            <p>
+                Etiam rutrum eu tellus ac faucibus. In mauris risus, tempor ut nisl vel, egestas faucibus nisi. 
+                Aenean fermentum viverra nunc at mattis. Curabitur id purus eu felis placerat posuere a vitae dolor. 
+            </p>
+        </div>
+    </section>
+
+    <h2>Carros Mais Recentes</h2>
+    
+    <div class="slider">
+        <div class="slides">
+            <img class="slide" src="images/slide1.png" alt="Image #1">
+            <img class="slide" src="images/slide2.png" alt="Image #2">
+            <img class="slide" src="images/slide3.png" alt="Image #3">
+            <img class="slide" src="images/slide3.png" alt="Image #3">
+        </div>
+        
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+    </div>
+
+ 
+    <h2>Carros em destaque</h2>
+    
+    <section class="secao4">
+        <div>
+            <img src="images/carro1.png" alt="">
+            <p id="paragt">3000 GT</p>
+        </div>
+
+        <div>
+            <img src="images/carro2.png" alt="">
+            <p>COUPÉ</p>
+        </div>
+
+        <div>
+            <img src="images/carro3.png" alt="">
+            <p>1200</p>
+        </div>
+
+        <div>
+            <img src="images/carro4.png" alt="">
+            <p>MG SPAIC</p>
+        </div>
+
+        <div>
+            <img src="images/carro5.png" alt="">
+            <p>ACCORD</p>
+        </div>
+
+        <div>
+            <img src="images/carro6.png" alt="">
+            <p>PRELUDE</p>
+        </div>
+
+        <div>
+            <img src="images/carro7.png" alt="">
+            <p>S2000</p>
+        </div>
+
+        <div>
+            <img src="images/carro8.png" alt="">
+            <p>3000 GT</p>
+        </div>
+
+        <div>
+            <img src="images/carro9.png" alt="">
+            <p>ECLIPSE</p>
+        </div>
+    </section>
+
+
+    <br><h2>Oque nossos Clientes Dizem</h2><br>
+    
+    <section class="secao5">
+        <div>
+            <img src="images/cliente1.png" alt="">
+            <p>
+                Suspendisse vel mattis lacus. Vestibulum consequat purus nec tellus aliquet ornare<br><br>
+                <strong>Martins Oliveira</strong><br><br>
+                Austria<br>
+            </p>
+        </div>
+
+        <div>
+            <img src="images/cliente2.png" alt="">
+            <p>
+                Suspendisse vel mattis lacus. Vestibulum consequat purus nec tellus aliquet ornare<br><br>
+                <strong>Isabela de Faria</strong><br><br>
+                Zambia<br>
+            </p>
+        </div>
+
+        <div>
+            <img src="images/cliente3.png" alt="">
+            <p>
+                Suspendisse vel mattis lacus. Vestibulum consequat purus nec tellus aliquet ornare<br><br>
+                <strong>Eustaquio nova era</strong><br><br>
+                India<br>
+            </p>
+        </div>
+
+    </section>
+
+    <section class="secao6">
+        <div>
+            <img src="images/marcas1.png" alt="">
+        </div>
+
+        <div>
+            <img src="images/marcas2.png" alt="">
+        </div>
+
+        <div>
+            <img src="images/marcas3.png" alt="">
+        </div>
+
+        <div>
+            <img src="images/marcas4.png" alt="">
+        </div>
+
+        <div>
+            <img src="images/marcas5.png" alt="">
+        </div>
+
+        <div>
+            <img src="images/marcas6.png" alt="">
+        </div>
+
+        <div>
+            <img src="images/marcas7.png" alt="">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>
+            <strong>Carmo</strong><br><br>
+            Phasellus id ligula nec ante sollicitudin vestibulum vel vel ex.<br> 
+            Vivamus ante lorem, varius at mattis ac, aliquet quis enim.<br>
+            Ut ac leo sit amet neque elementum lacinia<br>
+        </p>
+
+        <ul>
+            <li><strong>SOBRE Carmo</strong></li><br>
+            <li>Sobre nós</li><br>
+            <li>Carreira</li><br>
+            <li>Termos de serviço</li><br>
+            <li>Política de Privacidade</li><br>
+        </ul>
+      
+        <ul>
+            <li><strong>Top Marcas</strong></li><br>
+            <li>Ferrari</li><br>
+            <li>Audi</li><br>
+            <li>Camaro</li><br>
+            <li>Hyundai</li><br>
+        </ul>
+
+        <p>
+            <strong>NEWS LETTER</strong><br><br>
+            Inscreva-se para receber as últimas notícias e informações
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

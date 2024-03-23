@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header-->
+    <header class="header"> 
+
+        <figure>
+        <img src="images/gear-icon.png" alt="Foto do produto" width="50" height="50">
+        <figcaption>Volutpat</figcaption>
+        </figure>
+ 
+        <ul>
+            <li> <a href="index.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="serviços.html">Serviços</a></li>
+            <li><a href="contatenos.html">Contate-nos</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+        </ul>
+
+    </header>
+    <!--end header-->
+
+
+    <h1>Contate-nos</h1>
+
+    <section class ="secao4">
+
+        <form>
+            <label for="iname">Nome:</label><br>
+            <input type="text" id="iname" name="iname"><br><br>
+            
+            <label for="iendere">Endereço:</label><br>
+            <input type="text" id="iendere" name="iendere"><br><br>
+            
+            <label for="iemail">Email:</label><br>
+            <input type="text" id="iemail" name="iemail"><br><br>
+
+            <input type="button" value="Enviar" onclick="mostrar ()"><br>
+
+            <p class="secao4_saida"> Espaco em braco</p>
+
+            <p>Selecione o Estado de nossa Filial</p>
+            <input type = "radio" name ="radest" id = "goias" checked onclick="verificar ()"> 
+            <label for = "goias">Goiás</label>
+            <input type = "radio" name ="radest" id = "minas" onclick="verificar ()">
+            <label for = "minas">Minas Gerais</label>
+            <input type = "radio" name ="radest" id = toca onclick="verificar ()">
+            <label for = toca>Tocantins</label>
+        </form>
+
+        <img class="secao4_img" src ="images/goias.png"  alt="endereco"> 
+
+    </section>
+
+    <footer class="footer">
+        <p>
+            <strong>Atendimento</strong> <br>
+            Política <br>
+            Termos <br>
+            Fale Conosco <br>
+        </p>
+
+        <p>
+            <strong>Pagamento</strong><br>
+            Meios de Pagamento<br>
+            Compre com Pontos<br>
+            Cartão de Crédito<br>
+        </p>
+
+        <figure>
+            <p>Formas de Pagamento</p>
+            <img src="images/pagamento.png" alt="formas de pagamento">
+        </figure>
+
+    </footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

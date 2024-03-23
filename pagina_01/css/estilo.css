@@ -1,0 +1,209 @@
+h1 ,h2 {
+    margin-left: 25px;
+}
+
+.header{
+    /*Configuracoes de area */
+    width: 100%; /* Define a largura como 100% */
+    height: 70px; /* Define a altura conforme necessário */
+    margin: 0px 0px 0px 0px; /* Remove margens */
+    padding: 0px 0px 0px 0px;; /* Remove preenchimento */
+    background-color: #0A0F43;; /* Cor de fundo apenas para fins de visualização */
+
+
+    /*Configuracoes de texto */
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: white;
+        
+    /*Configuracoes da lista */
+    list-style: none;
+        
+    /*Configuracoes de elementos*/
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header p{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header li {
+    /*Configuracoes dos itens da  lista */
+    margin-right: 20px; /* Adicionando espaçamento entre os itens */  
+    display: inline-block; /* Para exibir os itens horizontalmente */
+   
+}
+
+.header figure {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    
+}
+
+.header figcaption {
+    margin-left: 20px; 
+}
+
+.secao1{
+    /* Estilos para o elemento <main> */
+    width: 100%;
+    padding-top: 30px auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-right: 0px;
+    background-color: #d1e3ff;
+    
+    /*Configuracoes de elementos*/
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.secao1 h1 {
+    margin: 0px 0px 190px 250px;
+    padding: 0;
+}
+
+.secao1 p {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+        
+    /*A Posição e relativa a sua posicao original é se desolocando 
+    sem interferir em outro elementos*/
+
+    position: relative;
+    top: -100px; 
+}
+
+.secao1 img {
+    margin-right: 25px;
+}
+
+.secao1_grid {
+    width: 100%;
+    margin-top: 20px;
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.secao1_grid p {
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+.secao1_grid img {
+    margin-left: 90px;
+}
+
+/* definindo as cores para ações do mouse */
+
+.grid_item {
+    background-color: #ffffff; /* Define uma cor de fundo para todos os itens da grade */
+    padding: 10px; /* Adiciona um espaçamento interno para melhorar a visualização */
+}
+
+.grid_item:hover {
+    background-color: #0075e2; /* Define a cor de fundo ao passar o mouse */
+    filter: invert(100%); 
+}
+
+.grid_item:active {
+    background-color: #5252D4; /* Define a cor de fundo ao passar o mouse */
+}
+
+.secao2 {
+    margin-top: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #d1e3ff;
+    display: flex;
+    justify-content:space-between;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.secao2 h2 {
+    margin: 0px;
+}
+
+.secao3 {
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px; /*Altarnado o espaço entre os itens */
+    
+}
+
+.secao3 img {
+    margin-left: 90px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.secao4 {
+    padding-right: 25px;
+    padding-left: 25px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.secao4 form{
+    font-size: 20px;
+}
+
+#iname ,#iendere,#iemail{
+    /* Estilos aqui */
+    width: 220px;
+    height: 20px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombreamento */
+}
+
+.secao5 {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #0A0F43;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footer p{
+    color: #f0f0f0;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
