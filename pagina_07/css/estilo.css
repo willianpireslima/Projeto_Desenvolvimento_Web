@@ -1,0 +1,226 @@
+/*--------------------------------------------------------------
+# Sobre
+--------------------------------------------------------------*/
+
+html,body{
+  scroll-behavior: smooth;
+}
+
+body{
+  padding-top: 70px;
+	font-family: "Font Awesome 5 Free";
+	font-size:16px;
+	color:#818998;
+  text-transform:initial;
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header .navbar-brand{
+  color: black;
+}
+
+.header .btn-primary{
+  background-color: #00B98E;
+  border: 2px #00B98E solid;
+}
+
+/*Mudar a cor do nav ao fazer o scroll - associado ao js*/
+.navbar.scrolled {
+  background-color: #00B98E !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar.scrolled .nav-link ,.navbar.scrolled .navbar-brand {
+  color: white;
+}
+
+.navbar.scrolled .btn-primary {
+  background-color: #0E2E50;
+}
+
+.nav-scroll {
+	background: #fff;
+	-webkit-box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
+	box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+
+/*--------------------------------------------------------------
+# Inicio
+--------------------------------------------------------------*/
+
+.inicio .carousel-control-prev,.carousel-control-next{
+/*Dimensionado em botoes circulares*/
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #00B98E;
+}
+  
+/*posicionado os botões*/
+.inicio .carousel-control-prev{
+  position: absolute;
+  top: 55%;
+  left: -25px;
+  transform: translateY(-50%);
+}
+  
+.inicio .carousel-control-next{
+  position: absolute;
+  top: 45%;
+  left: -25px;
+  transform: translateY(-50%);
+}
+
+.inicio h1,p {
+  color: #0E2E50;
+}
+
+/*alterando a cor da segunda row da classe inicio*/
+.inicio .row:nth-child(2) {
+  background-color: #00B98E;
+}
+
+/*alterando a forma e cor dos botões*/
+.inicio .btn-secondary ,.form-control {
+  width: 250px;
+  padding: 10px;
+  padding-right: 10px;
+  
+  border: 2px white solid;
+  border-radius: 4%;
+  
+  background-color: white;
+  color: black;
+}
+
+.inicio .btn-primary{
+  width: 250px;
+  padding: 10px;
+  padding-right: 10px;
+  
+  border: 2px #0E2E50;
+  border-radius: 4%;
+  
+  background-color: #0E2E50;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# Propriedade
+--------------------------------------------------------------*/
+
+.propriedade{
+  text-align: center;
+}
+.propriedade .col-sm {
+  /*Modelando A Caixa com sombra*/
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+}
+
+.propriedade .col-sm:hover {
+  background-color: #ff4671;
+  filter: invert(100%);
+  animation-name:  slideUp;
+  animation-duration: 0.1s;
+  animation-delay: 0;
+  animation-direction: normal;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+    transform: translateX(0);
+  }
+  to {
+    transform: translateY(-10%);
+  }
+}
+
+/*--------------------------------------------------------------
+# Sobre
+--------------------------------------------------------------*/
+
+.sobre {
+  position: relative; /* Adicionado para o posicionamento relativo */
+}
+
+.sobre img {
+  position: relative;
+}
+
+.sobre .row::before {
+  margin-left: 50px;
+  position: absolute;
+  content: "";
+  top: -2%; /* Ajustado para cobrir toda a área da imagem */
+  left: 0; /* Ajustado para cobrir toda a área da imagem */
+  width: 250px; /* Ajustado para cobrir toda a área da imagem */
+  height: 565px; /* Ajustado para cobrir toda a área da imagem */
+  background-color: #00B98E;
+}
+
+.listprop img{
+  width: 100%; 
+  height:auto;
+}
+
+/*--------------------------------------------------------------
+# Lista Propriedades
+--------------------------------------------------------------*/
+
+.listprop .col-sm {
+  padding: 10px;
+  /*Modelando A Caixa com sombra*/
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+}
+
+.agentes .col-sm{
+  /*Modelando A Caixa com sombra*/
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer ul{
+  list-style-type: none;
+}
+
+.footer {
+ 
+  height: 400px;
+  padding: 20px;
+  background-color: #0E2E50;
+  color: white;
+}
+
+.footer p{
+  color:white;
+}
+
+.input-group-text{
+  height: 50px;
+}

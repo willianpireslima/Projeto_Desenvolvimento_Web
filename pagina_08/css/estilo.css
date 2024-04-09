@@ -1,0 +1,311 @@
+/*--------------------------------------------------------------
+# Sobre
+--------------------------------------------------------------*/
+
+html,body{
+  scroll-behavior: smooth;
+}
+
+body{
+  padding-top: 70px;
+	font-family: "Font Awesome 5 Free";
+	font-size:16px;
+	color: black;
+  text-transform:initial;
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.header .navbar-brand,.nav-link{
+  color: white;
+}
+
+.navbar {
+  background-color: #121518;
+}
+
+.header .btn-primary{
+  background-color: #00B98E;
+  border: 2px #00B98E solid;
+}
+
+/*Mudar a cor do nav ao fazer o scroll - associado ao js*/
+.navbar.scrolled {
+  background-color:#fdbe33 !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar.scrolled .nav-link ,.navbar.scrolled .navbar-brand {
+  color: #121518;
+}
+
+.navbar.scrolled .btn-primary {
+  background-color: #0E2E50;
+}
+
+.nav-scroll {
+	background: #fff;
+	-webkit-box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
+	box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+
+/*--------------------------------------------------------------
+# Inicio
+--------------------------------------------------------------*/
+
+.inicio .carousel-control-prev,.carousel-control-next{
+/*Dimensionado em botoes circulares*/
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fdbe33;
+
+  position: absolute;
+  top:50%;
+}
+  
+/*alterando a forma e cor dos botões*/
+
+/*aplicando sob a imagem um gradiente linear que causa o efeito de escurecimento*/
+.inicio .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height:100%;
+  background: linear-gradient(to right, rgba(37, 37, 37, 0.9), rgba(37, 37, 37, 0.7));
+}
+
+.inicio .btn-secondary ,.form-control {
+  width: 250px;
+  padding: 10px;
+  padding-right: 10px;
+  
+  border: 2px white solid;
+  border-radius: 4%;
+  
+  background-color: white;
+  color: black;
+}
+
+.inicio .btn-primary{
+  width: 250px;
+  padding: 10px;
+  padding-right: 10px;
+  
+  border: 2px #0E2E50;
+  border-radius: 4%;
+  
+  background-color: #0E2E50;
+  color: white;
+}
+
+.inicio h1,p {
+  color: white;
+  text-align: center;
+  padding-left: 80px;
+}
+
+/*Selecionando a Segunda coluna de Inicio*/
+.inicio .row:nth-child(2) {
+  position: absolute;
+  top:0;
+}
+
+/*Selecionando o texto da Terceira coluna de Inicio*/
+.inicio .row:nth-child(3) img {
+  padding-left: 20px;
+}
+
+/*Selecionando o texto da Terceira coluna de Inicio*/
+.inicio .row:nth-child(3) p {
+  color: #121518;
+}
+
+.inicio .row:nth-child(3) .col-sm:nth-child(1){
+  background-color: aqua;
+}
+
+
+/*--------------------------------------------------------------
+# Inicio part2
+--------------------------------------------------------------*/
+
+.inicio_icone .col-sm {
+  /*Modelando A Caixa com sombra*/
+  padding-top: 20px;
+  padding-right: 80px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.inicio_icone .col-sm:hover {
+  animation-name:  slideUp;
+  animation-duration: 0.3s;
+  animation-delay: 0;
+  animation-direction: normal;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+    transform: translateX(0);
+  }
+  to {
+    transform: translateY(-10%);
+  }
+}
+
+.inicio_icone .col-sm img {
+  margin-left: 70px;
+}
+
+.inicio_icone .col-sm p {
+  margin-top: 10px;
+}
+
+
+.inicio_icone .col-sm:nth-child(1){
+  background-color: #fdbe33;
+  color: #030f27;
+}
+.inicio_icone .col-sm:nth-child(1) p{
+  color: #030f27;
+}
+
+.inicio_icone .col-sm:nth-child(2) {
+  background-color: #030f27;
+ 
+}
+
+.inicio_icone .col-sm:nth-child(2) p {
+  color:  #fdbe33;
+}
+
+.inicio_icone .col-sm:nth-child(3) {
+  background-color: #fdbe33;
+}
+.inicio_icone .col-sm:nth-child(3) p{
+  color: #030f27;
+}
+
+/*--------------------------------------------------------------
+# Sobre
+--------------------------------------------------------------*/
+
+.sobre p {
+  color: #030f27;
+  text-align: left;
+ 
+}
+
+.sobre_number p {
+  color: #030f27;
+}
+
+.sobre_number .col-sm {
+  /*Modelando A Caixa com sombra*/
+  padding-top: 20px;
+  padding-right: 80px;
+
+  display: flex;
+  justify-content: center;
+
+ 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  background-color: #fdbe33;
+}
+
+
+.sobre_number .col-sm img  {
+  padding-left: 8px;
+}
+
+.sobre_number .col-sm p {
+  padding-left: 8px;
+}
+
+.sobre_number .num-content {
+  font-size: 15px;
+  font-weight: 600;
+
+}
+
+/*--------------------------------------------------------------
+# Lista Propriedades
+--------------------------------------------------------------*/
+.servicos .col-3 {
+  padding: 0; /* Remova o preenchimento para garantir que a imagem e o texto ocupem toda a área da coluna */
+}
+
+.servicos .col-3  {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  background-color: #030f27;
+  color: #fdbe33;
+}
+
+
+.servicos .col-3 p {
+  padding: 0px; /* Adicione um preenchimento ao texto para separá-lo da borda */
+  margin: 0; /* Remova as margens padrão do parágrafo */
+  color: #fdbe33;
+}
+
+/*--------------------------------------------------------------
+# Agentes
+--------------------------------------------------------------*/
+
+
+.agentes .col-sm{
+  /*Modelando A Caixa com sombra*/
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer ul{
+  list-style-type: none;
+}
+
+.footer {
+ 
+  height: 400px;
+  padding: 20px;
+  background-color: #0E2E50;
+  color: white;
+}
+
+.footer p{
+  color:white;
+}
+
+.input-group-text{
+  height: 50px;
+}
