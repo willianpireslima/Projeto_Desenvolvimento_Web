@@ -19,7 +19,7 @@ https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina
 https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_05/index.html
 
 #### Pagina 6
-https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_06/index.html
+https://raw.githack.com/[willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_06_base/index.html]
 
 #### Pagina 7
 https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_07/index.html
