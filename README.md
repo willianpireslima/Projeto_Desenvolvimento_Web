@@ -42,7 +42,7 @@ A página utiliza tecnologia de back-end para realizar operações CRUD, conecta
 
 -Para a execução do ambiente é instalação dos módulos foram utilizados os seguintes comandos\
 npm init -y\
-nmp install express ejs path mysql body-parser\
+npm install express ejs path mysql body-parser\
 npm install nodemon --save-dev
 
 -Foi utilizado o Vs Code como editor de código-fonte é a seguinte configuração nos arquivos para permitir atualização automática 
