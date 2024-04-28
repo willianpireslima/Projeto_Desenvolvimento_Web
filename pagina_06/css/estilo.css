@@ -10,7 +10,6 @@ body{
   
 }
 
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -52,10 +51,7 @@ body{
 }
 
 .inicioBusca {
-  /*Redimensionando o elemento*/
-  margin-left: 20px;
-  margin-right: 120px;
-
+  /*Dimensionando o elemento*/
   padding: 15px;
   
   /*Modelando A Caixa com sombra*/
@@ -63,18 +59,13 @@ body{
   border-radius: 1px;
   background-color: #f8f8f8;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-  /*Posicionado o Texto em relacao ao Conteiner*/
-  position: absolute;
-  top: 85%;
-  left: 10%;
 }
 
 /*aplicando sob a imagem um gradiente linear que causa o efeito de escurecimento*/
 .inicio::before {
   content: "";
   position: absolute;
-  top: 9%;
+  top: 4%;
   left: 0;
   width: 100%;
   height: 91%;
@@ -100,7 +91,6 @@ body{
 --------------------------------------------------------------*/
 
 .servicos {
-  padding-top: 170px;
   color: black;
 }
 
@@ -185,9 +175,7 @@ body{
   margin-right: 190px;
 }
 
-
 .carros p{
-  
   border-top: 1px solid #ccc;;
 }
 
@@ -247,7 +235,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 --------------------------------------------------------------*/
 
 .footer {
-  height: 560px;
+  height: 600px;
   margin-top: 30px;
   padding: 20px;
   background-color: #2a2d54;
