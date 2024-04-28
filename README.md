@@ -51,7 +51,7 @@ npm install nodemon --save-dev
 
 -A execução do ambiente usa o comando : npm start
 
--A Database Utilizada foi a seguinte:
+-A Database Utilizada do MySql foi a seguinte:
 
 CREATE DATABASE site;\
 USE site;
