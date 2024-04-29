@@ -69,5 +69,12 @@ CREATE TABLE usuarios (\
 
 ![nodejslocalhost](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/c6cb6f38-b999-4794-a2a6-f32399e1ca2a)
 
+#### Pagina 10
 
+A Pagina usa a tecnologia back-end para fazer um chat simples.Ele cria um servidor web utilizando Express, configura o Socket.IO  que permite comunicação bidirecional em tempo real entre o servidor e o cliente via websockets. Websockets são um protocolo de comunicação que permite uma conexão persistente entre o cliente e o servidor, facilitando a transmissão de dados em tempo real., trata as conexões e mensagens dos clientes, e inicia o servidor na porta 3000.
+
+-A execução do ambiente usa o comando : npm start
+
+![chat_node js](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/55f83284-0a60-4f5d-8c09-aa7cf6790ba5)
+Para demonstrar o funcionamento do chat, foram abertas múltiplas janelas, ilustrando como as alterações em uma janela afetam simultaneamente as outras. Isso evidencia a capacidade do chat em fornecer uma experiência em tempo real, onde as interações são instantaneamente refletidas em todas as instâncias, garantindo uma comunicação fluida e sincronizada entre os usuários.
 
