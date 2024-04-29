@@ -1,0 +1,46 @@
+body.body-background {
+  background-color: #bcf3d4; /* Define a cor de fundo do corpo */
+}
+
+.container {
+  background-color: #bcf3d4; 
+}
+
+input {
+  width: 100%;
+  border: 1px solid #ddd;
+  height: 40px;
+  padding: 0 20px;
+  margin: 0;
+  font-size: 14px;
+}
+
+/*Campo das Mensagens*/
+.messages {
+  width: 100%;
+  height: 500px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: white;
+}
+
+/*Mensagens Individuais*/
+.message {
+  background-color:  #e4e4e4;
+}
+
+.espaco {
+  height: 8px;
+}
+
+ /*Modelando o Sombreamento e arrendodamento da box*/
+.messages ,input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  width: 100%;
+}
