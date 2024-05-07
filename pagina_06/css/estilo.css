@@ -1,3 +1,7 @@
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+
 html,body{
   scroll-behavior: smooth;
 }
@@ -7,7 +11,29 @@ body{
 	font-size:16px;
 	color:#818998;
   text-transform:initial;
-  
+}
+
+/* Cor de fundo do botão */
+.btn-primary {
+  background-color: #2a2d54; /* Nova cor de fundo */
+  border-color: #2a2d54; /* Cor da borda */
+}
+
+/* Cor de fundo do botão quando hover */
+.btn-primary:hover {
+  background-color: #1c1e3a; /* Nova cor de fundo ao passar o mouse */
+  border-color: #1c1e3a; /* Cor da borda ao passar o mouse */
+}
+
+/* Cor de fundo do botão quando ativo (clicado) */
+.btn-primary:active {
+  background-color: #141623; /* Nova cor de fundo quando clicado */
+  border-color: #141623; /* Cor da borda quando clicado */
+}
+
+/* Cor de fundo do botão quando focado */
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(42, 45, 84, 0.5); /* Adicione um efeito de foco personalizado */
 }
 
 /*--------------------------------------------------------------
@@ -80,10 +106,6 @@ body{
 
 .inicioBusca .btn-primary{
   width: 140px;
-  height: auto;
-  background-color: #2a2d54;
-  border-color: 2px #2a2d54 solid;
-
 }
 
 /*--------------------------------------------------------------
@@ -104,14 +126,9 @@ body{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.servicos img {
-  padding-left: 40px;
-}
-
-
 
 /*--------------------------------------------------------------
-# Novos Carros
+# Novos Carros 
 --------------------------------------------------------------*/
 
 .novcar {
@@ -120,13 +137,11 @@ body{
   text-align: center;
 }
 
-
 .novcar .carousel-item {
   width: 90%;
   height: auto;
   padding-left: 120px;
 }
-
 
 .novcar .carousel-indicators {
   background-color: #2a2d54;
@@ -218,7 +233,6 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
 .clientes h2 {
-
   margin-left: 260px;
 }
 
@@ -228,6 +242,18 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 .marca img {
   width: 80%;
+}
+
+/*--------------------------------------------------------------
+# Financiamento  margin-left: 90px;
+  margin-right: 90px;
+--------------------------------------------------------------*/
+
+.financiamento {
+  background-color: #03619d;
+  color:white;
+  padding: 20px;
+ 
 }
 
 /*--------------------------------------------------------------
