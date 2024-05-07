@@ -27,6 +27,39 @@ $(document).ready(function(){
     });
 });
 
+/* Funcao pra extracao do input, calculo e envio de output para a pagina */
+function calcular() {
+    const valorInput = document.getElementById("valorCarro");
+    const taxaInput = document.getElementById("valorTaxa");
+    const parcInput = document.getElementById("numeroParcela");
+    
+    const valorValue = parseFloat(valorInput.value);
+    const taxaValue = parseFloat(taxaInput.value);
+    const parcValue = parseFloat(parcInput.value);
+    
+    if (!isNaN(valorValue) && !isNaN(taxaValue) && !isNaN(parcValue)) {
+        // Convertendo a taxa de juros anual para uma taxa de juros mensal decimal
+        const taxaMensal = taxaValue / 100 / 12;
+    
+        // Calculando o pagamento mensal usando a fórmula de amortização
+        const pagamentoMensal = valorValue * taxaMensal * 
+        Math.pow(1 + taxaMensal, parcValue) / (Math.pow(1 + taxaMensal, parcValue) - 1);
+    
+        // Retornando o pagamento mensal arredondado para duas casas decimais
+        const resultado = pagamentoMensal.toFixed(2);
+        
+        const resultElement = document.getElementById("result");
+        resultElement.innerHTML = `
+            <div class="result"> 
+                <p>Pagamento Mensal: <span class="result-value">${resultado}</span></p> 
+            </div>
+        `;
+    } else {
+        const resultElement = document.getElementById("result");
+        resultElement.innerHTML = '';
+    }
+}
+
 /* função de rolagem animada que inicia funcoes de Animacao*/
 $(document).ready(function() {
     ScrollToInit();
