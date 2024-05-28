@@ -91,26 +91,43 @@ A seguinte página apresenta um back-end que utiliza o framework NestJS para cri
 
 ![pagina12_base](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/491a7e91-e3e2-4b88-a22a-0aa5a98aeb90)
 
-O NestJs usa a seguinte estrutura : MVC (Model-View-Controller) é um padrão em design de software comumente usado para implementar interfaces de usuário, dados e lógica de controle. Ele enfatiza a separação entre a lógica de negócios e a exibição do software. Esta “separação de preocupações” proporciona uma melhor divisão do trabalho e uma melhor manutenção
-
+#### Estrutura MVC do NestJs
 ![pagina12_estrutura](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/67db0400-97d9-4071-a2c1-b01828c99df0)
 
-a inicalização possui a seguinte estrutura
+O NestJs usa a seguinte estrutura : MVC (Model-View-Controller) é um padrão em design de software comumente usado para implementar interfaces de usuário, dados e lógica de controle. Ele enfatiza a separação entre a lógica de negócios e a exibição do software. Esta “separação de preocupações” proporciona uma melhor divisão do trabalho e uma melhor manutenção
+
+#### Inicialização da API
 ![pagina12_inicio](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/7e7f77fe-f9e9-4cca-a528-47c225f36380)
+A inicialização da API segue uma estrutura organizada e eficiente.
 
-Conexão entre o Prisma é a database:
+#### Conexão entre Prisma e Database
 ![pagina12_exemplo](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/6f28cec0-c28b-408a-86e2-44322c9457a2)
+A conexão entre o Prisma e a base de dados
 
-Mostrando o output do terminal do VsCode que são as Rotas é a porta do servidor 
+#### Rotas e Porta do Servidor 
 ![pagina_12_rotas](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/72dfe496-7c2b-4a9e-b452-d3408a276494)
+Visualização do output do terminal do VSCode, que mostra as rotas e a porta do servidor.
 
-realizando as solitações de API com o Postman: o passo inicial consistem em relizar o cadastro ou login para conseguir a chave de acesso
+#### Solicitações de API com Postman
 ![pagina_12_castro](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/899752f3-51ce-4fde-8fd5-f98229306e7a)
+Passos para realizar o cadastro ou login e obter a chave de acesso para realizar solicitações de API com o Postman.
 
-Apos conseguir a chave é possivel realizar o Crud na dabase:
+#### Operações CRUD na Database
 ![pagina_12_db](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/2f4cdb21-4cef-498f-a7a3-444f9e84da53)
 
-Usando o template engine com hbs foi possivel implementar uma pagina que facilita a demonstração é visualização 
+#### Template Engine com HBS
+
+![pagina_12_interface](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/ea0ce138-e468-42c1-b6af-9d0b017ed514)
+Implementação de uma página visualmente atraente utilizando o template engine HBS para facilitar a demonstração e visualização.
+
+#### Comandos Para Inicilizar os arquivos no terminal do VsCode
+
+npm install // Instala as dependências do projeto\
+npm run db:dev:restart // Inicia o PostgreSQL no Docker. Também é importante conectar o VSCode ao Docker\
+npx prisma migrate dev // Aplica migrações de banco de dados usando o Prisma.\
+npm run start:dev // Inicia a API no modo de desenvolvimento.
+
+
 
 
 
