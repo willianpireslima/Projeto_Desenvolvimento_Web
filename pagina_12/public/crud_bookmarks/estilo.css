@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+
+html,body{
+  scroll-behavior: smooth;
+}
+
+body{
+	font-size:16px;
+  background-color: #4070f4;
+}
+
+
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+
+.main {
+  background-color: white;
+  width: 50%;
+
+  /*Dimensionando o elemento*/
+  padding: 25px;
+  
+  /*Modelando A Caixa com sombra*/
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*alterando o tamanho dos botoes comuns*/
+.main .btn{
+  width: 100%;
+}
+
+/*alterando o tamanho dos botoes da aba lateral*/
+#conBut > .btn {
+  width: 200px;
+}
+
+/*Ocultando as seçoes*/
+#read_section,#update_section ,#delete_section{
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
