@@ -1,0 +1,137 @@
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+
+.text_destaque {
+    color:#004aad;
+}
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+.navbar  img {
+    width: 40%;
+}
+
+.navbar  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    border-color: #004aad;
+    background-color: #004aad;
+}
+
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+
+.inicio  img {
+    width: 110%;
+}
+
+.inicio  h1 {
+   font-size: 40px;
+}
+
+.inicio  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    border-color: #1e94f9;
+    background-color: #1e94f9;
+}
+
+/*--------------------------------------------------------------
+# Recursos
+--------------------------------------------------------------*/
+.recursos .btn-primary {
+    padding: 10px;
+    border-color: #1e94f9;
+    background-color: #1e94f9;
+}
+
+.recursos .btn-primary:hover {
+    border-color: #004aad;
+    background-color: #004aad;
+}
+
+
+.sec_forsa_vendas,.sec_integrasos ,.sec_busines_int,.sec_coletor_dado,.sec_pdv_varejo,.sec_ap_venda,.sec_cont_prod{
+    display: none;
+}
+
+/*--------------------------------------------------------------
+# Conheca
+--------------------------------------------------------------*/
+
+.conheca img {
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Servicos
+--------------------------------------------------------------*/
+
+.servicos .btn-primary{
+    padding: 10px;
+    border-color: #004aad;
+    background-color: #004aad;
+}
+
+.servicos .btn-primary:hover  {
+   
+    border-color: #1e94f9;
+    background-color: #1e94f9;
+}
+
+.servicos .row:nth-child(5){
+  background-color: #fafafad3;
+}
+
+.servicos img {
+    border-radius: 8%;
+}
+
+/*--------------------------------------------------------------
+# Faq
+--------------------------------------------------------------*/
+
+.faq .collapsible-header {
+    /*torna todo o header clicavel*/
+    cursor: pointer;
+
+    /*Modelando A Caixa com sombra*/
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+    padding: 60px;
+    background-color: #151a33;
+    color: white;
+}
+
+.footer ul {
+    
+    list-style-type: none;
+}
+
+.footer strong { 
+   margin-left: 30px;
+}
+
+.footer_rodape {
+    border-top: 2px #6e82a4 solid;
+    margin-top: 120px;
+    padding-top: 30px;
+    color:#6e82a4;
+}
+
+.footer img {
+    width: 100%;
+}
+
+.footer_social {
+    margin-left: 0px;
+}
