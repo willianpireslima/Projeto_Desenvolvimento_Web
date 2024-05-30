@@ -7,31 +7,31 @@ As Paginas 01 a 03 Utilizam as tecnologias HTML, CSS e Javascript
 ![javascript-vs-html-vs-css-1024x683](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/f3f2f650-031f-441a-a316-28fb492e5487)
 
 #### Pagina 1
-https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_01/index.html
+https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_01_Concerto_de_Pecas/index.html
 
 #### Pagina 2
-https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_02/index.html
+https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_02_Venda_Carro/index.html
 
 #### Pagina 3
-https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_03/index.html
+https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_03_Hotel/index.html
 
 Da Pagina 04 em diante é ultilizada o Bootstrap uma Framework front-end 
 ![js-vs-html-vs-css-boots](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/f8eda976-4142-4a60-a110-a38748cf2988)
 
 #### Pagina 4
-https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_04/index.html
+https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_04_Consulta_Medica/index.html
 
 #### Pagina 5
-https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_05/index.html
+https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_05_Transportes/index.html
 
 #### Pagina 6
-https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_06/index.html
+https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_06_Venda_CarroV2/index.html
 
 #### Pagina 7
-https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_07/index.html
+https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_07_Venda_Imovel/index.html
 
 #### Pagina 8
-https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_08/index.html
+https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_08_Construtora/index.html
 
 #### Pagina 9
 
@@ -126,6 +126,27 @@ npm install // Instala as dependências do projeto\
 npm run db:dev:restart // Inicia o PostgreSQL no Docker. Também é importante conectar o VSCode ao Docker\
 npx prisma migrate dev // Aplica migrações de banco de dados usando o Prisma.\
 npm run start:dev // Inicia a API no modo de desenvolvimento.
+
+#### Pagina 13
+
+Esta página utiliza a tecnologia React para modularizar o conteúdo, separando cada seção em componentes distintos que são renderizados de forma eficiente.
+A página que exemplifica esta tecnologia foi desenvolvida pela Manto Sistemas, uma proeminente empresa de desenvolvimento de software localizada em Aparecida de Goiânia.
+
+![pagina_13_react](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/58607092-0988-411b-a18f-26ca0ffa96fb)
+
+npm install // installar as dependencias
+npm start // Rodar o Ambinte Node para a execução
+
+#### Pagina 14
+
+A pagina 14 se trata da vesão 'pura' da pagina 13 sem o React
+
+https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_14_Manto_FrontEnd/index.html
+
+
+
+
+
 
 
 
