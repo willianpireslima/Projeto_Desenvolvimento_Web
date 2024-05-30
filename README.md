@@ -134,8 +134,8 @@ A página que exemplifica esta tecnologia foi desenvolvida pela Manto Sistemas, 
 
 ![pagina_13_react](https://github.com/willianpireslima/Projeto_Desenvolvimento_Web/assets/158337302/58607092-0988-411b-a18f-26ca0ffa96fb)
 
-npm install // installar as dependencias
-npm start // Rodar o Ambinte Node para a execução\
+npm install // installar as dependencias\
+npm start // Rodar o Ambinte Node para a execução
 
 #### Pagina 14
 
