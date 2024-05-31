@@ -139,7 +139,7 @@ npm start // Rodar o Ambinte Node para a execução
 
 #### Pagina 14
 
-A pagina 14 se trata da vesão 'pura' da pagina 13 sem o React
+A pagina 14 se trata da versão 'pura' da pagina 13 sem o React
 
 https://raw.githack.com/willianpireslima/Projeto_Desenvolvimento_Web/main/pagina_14_Manto_FrontEnd/index.html
 
