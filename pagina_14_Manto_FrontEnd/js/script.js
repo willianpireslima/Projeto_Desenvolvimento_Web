@@ -1,4 +1,4 @@
-// Função genérica para mostrar a seção desejada
+// Função genérica para mostrar a seção  desejada
 function mostrarSecao(secaoId) {
     // IDs das seções
     const secoes = [
